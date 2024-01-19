@@ -11,6 +11,8 @@
   <body>
   <!-- Navbar -->
   <%@include file="navbar.jsp" %>
+  
+  <h1>hwll</h1>
 
   <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">

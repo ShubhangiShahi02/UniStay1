@@ -5,6 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title></title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400&display=swap');
+  a{
+  font-family: 'Noto Serif', serif;
+  }
+</style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -13,9 +19,7 @@
       <img src="image/unistay-high-resolution-logo-transparent.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
       UniStay
     </a>
-  </div>
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
