@@ -4,29 +4,21 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400&display=swap');
-  a{
-  font-family: 'Noto Serif', serif;
-  font-color: white;
-  }
-
-</style>
+<title>Insert title here</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent fixed-top" >
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <a class="navbar-brand" href="#">
-      <img src="image/unistay-high-resolution-logo-transparent.png" alt="" width="30" height="24">
+  
+  <a class="navbar-brand" href="#">
+      <img src="image/unistay-high-resolution-logo-transparent.png" width="30" height="24">
     </a>
-     <a class="navbar-brand" href="#">
-      UniStay
-    </a>
+  
+    <a class="navbar-brand" href="#">UniStay</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -51,7 +43,7 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-dark" type="submit">Search</button>
+        <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
   </div>
