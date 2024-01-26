@@ -16,3 +16,11 @@ $(function() {
 	});
 
 });
+
+function login() {
+	alert("Login successful!");
+}
+
+function register() {
+	alert("Registered successfully!");
+}
