@@ -60,6 +60,9 @@ height: 100vh;
         <li class="nav-item">
           <a class="nav-link text-white" aria-current="page" href="#contact">Contact</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" aria-current="page" href="Admin/index.jsp">Login/Signup</a>
+        </li>
       </ul>
      
     </div>
