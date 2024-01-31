@@ -57,10 +57,16 @@ height: 100vh;
         <li class="nav-item">
           <a class="nav-link text-white" aria-current="page" href="#contact">Contact</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" aria-current="page" href="Admin/index.jsp">Login/Signup</a>
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Login
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Login.jsp">Login</a></li>
+            <li><a class="dropdown-item" href="#">Owner Login</a></li>
+          </ul>
         </li>
-       <button type="button" class="btn btn-dark"><a href="Login.jsp" class="text-white">Login</a></button>
+
       </ul>
      
     </div>
