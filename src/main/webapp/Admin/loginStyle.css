@@ -1,6 +1,7 @@
 @charset "ISO-8859-1";
 body {
     padding-top: 90px;
+    background-color: red;
 }
 
 .container input[type="text"],
@@ -27,7 +28,7 @@ body {
 .container .btn-login {
     background-color: #ffffff;
     outline: none;
-    color: #3598f4;
+    color: #000000;
     font-size: 14px;
     height: auto;
     font-weight: normal;
@@ -39,14 +40,14 @@ body {
 .container .btn-login:hover,
 .container .btn-login:focus {
     color: #fff;
-    background-color: #53A3CD;
-    border-color: #53A3CD;
+    background-color: #ffc107;
+    border-color: #ffc107;
 }
 
 .container .btn-register {
 	background-color: #ffffff;
     outline: none;
-    color: #3598f4;
+    color: #000000;
     font-size: 14px;
     height: auto;
     font-weight: normal;
@@ -58,8 +59,8 @@ body {
 .container .btn-register:hover,
 .container .btn-register:focus {
     color: #fff;
-    background-color: #53A3CD;
-    border-color: #53A3CD;
+    background-color: #ffc107;
+    border-color: #ffc107;
 }
 
 .panel-login {
@@ -87,7 +88,7 @@ body {
 	transition: all 0.1s linear;
 }
 .panel-login>.panel-heading a.active{
-	color: #53A3CD;
+	color: #ffc107;
 	font-size: 18px;
 }
 .panel-login>.panel-heading hr{
@@ -97,3 +98,4 @@ body {
 	border: 0;
 	height: 1px;
 }
+
