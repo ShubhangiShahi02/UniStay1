@@ -189,7 +189,7 @@ font-size: 25px;
                 <i class="bi bi-whatsapp"></i>
                 <i class="bi bi-google"></i>
             </div> 
-
+<!--Login-->
             <form action="" id="login" class="input-group">
                 <input type="email" class="input-field" placeholder="Email" required>
                 <input type="password" class="input-field" placeholder="Password" required>
@@ -197,7 +197,7 @@ font-size: 25px;
                 <button type="button" class="submit-btn">Login</button>
                 <a href="forgotpas.jsp" class="text">Forgot Password</a>
             </form>
-
+<!--Register-->
             <form action="" id="register" class="input-group">
                 <input type="text" class="input-field" placeholder="First Name" required>
                 <input type="text" class="input-field" placeholder="Last Name" required>
